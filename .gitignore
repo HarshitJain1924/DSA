@@ -95,16 +95,6 @@ input.txt
 output.txt
 
 # Keep these tracked
-!.gitignore
+*.gitignore
 !README.md
-
-# Keep the gitignore file itself
-!.gitignore
-
-# Keep the top-level README
-!README.md
-
-# Keep the entire "Step 1" folder and its contents
-!Step 1/
-!Step 1/**
 
