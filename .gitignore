@@ -1,0 +1,115 @@
+########################################
+# Maintainable .gitignore for C/C++ dev #
+########################################
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+~$*
+
+# Editors/IDEs
+.vscode/
+.idea/
+.history/
+.fleet/
+.cache/
+
+# Visual Studio (if ever used)
+.vs/
+Debug/
+Release/
+x64/
+x86/
+
+# C/C++: compiled objects, libs, binaries
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.gch
+*.pch
+*.pdb
+*.mod
+*.smod
+*.d
+*.su
+*.idb
+*.ilk
+*.exp
+*.lib
+*.a
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+
+# Coverage and analysis
+*.gcno
+*.gcda
+*.gcov
+
+# CMake and build system artifacts
+build/
+Build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+Makefile
+Makefile.*
+*.make
+*.mk
+*.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+compile_flags.txt
+
+# Qt/qmake (just in case)
+moc_*
+ui_*
+qrc_*
+qmake.stash
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Project-specific (local IO files)
+input.txt
+output.txt
+
+# Keep these tracked
+!.gitignore
+!README.md
+
+###############################
+# Ignore everything by default #
+###############################
+*
+
+# Keep the gitignore file itself
+!.gitignore
+
+# Keep the top-level README
+!README.md
+
+# Keep the entire "Step 1" folder and its contents
+!Step 1/
+!Step 1/**
+
