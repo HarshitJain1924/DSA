@@ -98,11 +98,6 @@ output.txt
 !.gitignore
 !README.md
 
-###############################
-# Ignore everything by default #
-###############################
-*
-
 # Keep the gitignore file itself
 !.gitignore
 
