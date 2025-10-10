@@ -1,5 +1,5 @@
 # NOTE:
-Need to continue from Euclidean Algorithm
+>## Need to continue from gcd/Euclidean Algorithm
 
 # BASIC MATHS
 ---
