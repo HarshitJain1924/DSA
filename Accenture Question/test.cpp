@@ -2,14 +2,14 @@
 using namespace std;
 
 int main(){
-    int n = 3;
-    int arr[n] = {2,3,1};
     int sum = 0;
+    int n = 3;
+    int arr[3] = {2,3,1};
 
     for(int i=0;i<n;i++){
         int m = max(0,i-arr[i]);
-        for(int j= m;j<=i;j++){
-            sum+=arr[j];
+        for(int j=m;j<=i;j++){
+            sum += arr[j];
             cout<<sum<<endl;
         }
     }
