@@ -1,3 +1,5 @@
+//question was in Java 
+
 #include <iostream>
 #include <cctype>  // for isalpha() and isdigit()
 
